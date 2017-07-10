@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 8797688: <tolerance_lps_200_MS> Done
+
+Job <tolerance_lps_200_MS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/ig440396_dendriticcells/local/mast/Scripts> was used as the working directory.
+Started at Tue Jun 18 13:39:42 2013
+Results reported at Thu Jun 20 13:41:28 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./motifStatistics_pipeline.zsh -coord_file=/work/eg474423/ig440396_dendriticcells/local/mast/Input/mm9_promoters_200.bed -gene_list=/work/eg474423/ig440396_dendriticcells/local/mast/GeneList/tolerance_lps.txt -output_location=/work/eg474423/ig440396_dendriticcells/local/mast/MotifStatistics/200/tolerance_lps/ -organism=mm9 -motif_match_fpr=0.001 -rand_proportion_size=1.0 -print_association=Y -print_mpbs=N -print_results_text=Y -print_results_html=Y -print_enriched_genes=N -print_rand_coordinates=Y -print_graph_mmscore=N
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   : 172732.22 sec.
+    Max Memory :      9618 MB
+    Max Swap   :      9941 MB
+
+    Max Processes  :         6
+    Max Threads    :         7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <tolerance_lps_200_MS_err.txt> for stderr output of this job.
+
